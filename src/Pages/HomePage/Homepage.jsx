@@ -4,7 +4,7 @@ function Home() {
   return (
     <div className="bg-green-50 min-h-screen flex flex-col items-center justify-center"
       style={{
-        backgroundImage: "url('/heroimg.jpg')", // Path from the public folder
+        backgroundImage: "url('/heroimg.jpg')", 
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}
