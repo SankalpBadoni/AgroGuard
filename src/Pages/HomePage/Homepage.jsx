@@ -2,13 +2,19 @@ import React from 'react';
 
 function Home() {
   return (
-    <div className="bg-green-50 min-h-screen flex flex-col items-center justify-center">
+    <div className="bg-green-50 min-h-screen flex flex-col items-center justify-center"
+      style={{
+        backgroundImage: "url('/heroimg.jpg')", // Path from the public folder
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+      }}
+    >
 
       <div className="text-center p-6 md:p-12">
         <h1 className="text-4xl md:text-6xl font-bold text-green-700">
           Welcome to AgroGuard
         </h1>
-        <p className="mt-4 text-lg md:text-xl text-green-600 max-w-2xl mx-auto">
+        <p className="mt-5 text-lg md:text-xl text-black max-w-2xl mx-auto">
           Empowering farmers to detect and prevent crop diseases early. Let's protect your crops and ensure a healthy harvest!
         </p>
 
